@@ -1,5 +1,22 @@
 body {
     background-color: #FF9A8B;
-background-image: linear-gradient(90deg, #FF9A8B 0%, #FF6A88 55%, #ff7eee 100%);
+    background-image: linear-gradient(90deg, #FF9A8B 0%, #FF6A88 55%, #ff7eee 100%);
+
+}
+
+header {
+    display: flex;
+    width: 100%;
+}
+
+ul {
+    display: flex;
+    list-style: none;
+    color: black;
+    font-size: 40px;
+    text-transform: uppercase;
+    justify-content: center;
+    align-items: center;
+    gap: 28px;
 
 }
