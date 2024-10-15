@@ -10,7 +10,7 @@ header {
     justify-content: center;
 }
 
-ul {
+.nav-lista {
     display: flex;
     list-style: none;
     color: black;
@@ -20,4 +20,10 @@ ul {
     align-items: center;
     gap: 28px;
 
+}
+
+nav-item:hover {
+cursor: pointer;
+background-color: black;
+color: white;
 }
